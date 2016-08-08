@@ -7,7 +7,7 @@
     </s:schema>
   </wsdl:types>
   <wsdl:service name="EventsService">
-    <wsdl:port name="Events" binding="i0:PTZBinding">
+    <wsdl:port name="Events" binding="i0:EventsBinding">
       <soap:address location="http://localhost:8000/onvif/events_service"/>
     </wsdl:port>
   </wsdl:service>
